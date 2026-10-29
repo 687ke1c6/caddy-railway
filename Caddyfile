@@ -8,3 +8,7 @@
 http://www.onnextlabs.xyz:8080 {
     reverse_proxy onnextlabs-site.railway.internal:8080
 }
+
+http://pdf-flex.onnextlabs.xyz:8080 {
+    reverse_proxy pdf-flex.railway.internal:8080
+}
