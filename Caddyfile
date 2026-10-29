@@ -5,7 +5,7 @@
 }
 
 # Railway terminates TLS before it gets to Caddy.
-http://www.onnextlabs.xyz:8080 {
+http://onnextlabs.xyz:8080, http://www.onnextlabs.xyz:8080 {
     reverse_proxy onnextlabs-site.railway.internal:8080
 }
 
